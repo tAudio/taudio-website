@@ -134,13 +134,13 @@ nav{
     nav ul{
     position: fixed;
     top:100px;
-    right: -100%;
+    right: -120%;
     background: whitesmoke;
     height: calc(100vh - 100px);
     width: 50%;
     flex-direction: column;
     align-items: center;
-    transition: right 0.5s linear;
+    transition: right 0.3s linear;
     }
     nav .menu{
     display: block;

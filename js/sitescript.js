@@ -12,6 +12,7 @@ $(function(){
 
         current_section = clicked_nav;
         console.log("current_section is "+current_section);
+        $("#chk1").prop('checked', false);
         Render();
     });
 
