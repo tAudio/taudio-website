@@ -25,5 +25,12 @@ $(function(){
 
     $('.content_item').hide();
     $("#"+current_section).show();
+    history.pushState({'pageState': current_section}, current_section);
+
 
   }
+
+  window.addEventListener('popstate', (event) => {
+    current_section = event.state.pageState;
+    Render();
+  });
