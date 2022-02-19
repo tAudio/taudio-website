@@ -96,6 +96,7 @@ nav{
   }
   nav ul li{
   list-style: none;
+  width: max-content;
   }
   nav ul li a{
   text-decoration: none;
@@ -227,6 +228,9 @@ nav{
   @media only screen and (max-width: 900px) {
       .imgcontainer {
           width: calc(50% - 6px);
+      }
+      .section{
+        padding: 50px 40px;
       }
   }
   @media only screen and (max-width: 400px) {
