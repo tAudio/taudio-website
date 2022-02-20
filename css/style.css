@@ -38,7 +38,24 @@ body, html{
 
 }
 
+#taudioemail{
+  text-align:center;
 
+}
+
+.event_item{
+  background-color:#282e34;
+  color:#ddd;
+  margin: 5%;
+  padding: 3%;
+  padding-top: 1%;
+
+}
+
+footer p{
+  text-align:center;
+
+}
 
 .section-light{
   background-color:#f4f4f4;
