@@ -30,9 +30,15 @@ body, html{
 
 
 .section{
-  text-align:center;
   padding:50px 80px;
 }
+
+.section h2{
+  text-align:center;
+
+}
+
+
 
 .section-light{
   background-color:#f4f4f4;
@@ -238,3 +244,8 @@ nav{
           width: 100%;
       }
   }
+
+#content{
+    font-size: x-large;
+    line-height: 1.8em;
+}
