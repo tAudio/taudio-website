@@ -5,7 +5,8 @@ body, html{
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#666;
+  color:#23ffbb;
+  background-color: #000000;
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -23,7 +24,8 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('https://raw.githubusercontent.com/tAudio/taudio-website/main/assets/background_image.png');
+  /* background-image:url('https://raw.githubusercontent.com/tAudio/taudio-website/main/assets/background_image.png'); */
+  background-image:url('../assets/background_image.png');
   min-height:30%;
 }
 
@@ -44,8 +46,8 @@ body, html{
 }
 
 .event_item{
-  background-color:#282e34;
-  color:#ddd;
+  color:#23ffbb;
+  background-color: #000000;
   margin: 5%;
   padding: 3%;
   padding-top: 1%;
@@ -57,14 +59,14 @@ footer p{
 
 }
 
-.section-light{
-  background-color:#f4f4f4;
-  color:#666;
+.section-dark{
+  color:#23ffbb;
+  background-color: #000000;
 }
 
-.section-dark{
-  background-color:#282e34;
-  color:#ddd;
+.section-light{
+  color:#000000;
+  background-color: #23ffbb;
 }
 
 .ptext{
@@ -104,14 +106,17 @@ nav{
   position: fixed;
   z-index: 99;
   box-shadow: 0 0 10px #000;
-  background-color: rgb(252, 249, 249) ;
+  color:#23ffbb;
+  background-color: #000000;
   }
   nav .logo{
   flex: 1;
   color: rgb(2, 37, 18);
   text-shadow: 0 0 2px #000;
-  margin-left: 50px;
+  margin-left: 2px;
+
   }
+
   nav ul{
   flex: 2;
   display: flex;
@@ -123,7 +128,7 @@ nav{
   }
   nav ul li a{
   text-decoration: none;
-  color: rgb(2, 37, 18);
+  color:#23ffbb;
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -151,7 +156,7 @@ nav{
     position: fixed;
     top:100px;
     right: -120%;
-    background: whitesmoke;
+    background: rgb(0, 0, 0);
     height: calc(100vh - 100px);
     width: 50%;
     flex-direction: column;
@@ -168,9 +173,9 @@ nav{
     }
   }
   @media (max-width:500px){
-    nav .logo{
+    /* nav .logo{
     margin-left: 10px;
-    }
+    } */
     .logo h1{
     font-size: 1.5em;
     }
@@ -265,4 +270,11 @@ nav{
 #content{
     font-size: x-large;
     line-height: 1.8em;
+}
+
+
+
+#logo{
+  width:7em;
+  margin-top: 1.5%;
 }
