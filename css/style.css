@@ -1,3 +1,19 @@
+:root {
+  --light-color: #63ffad;
+  --dark-color: #fc7291;
+
+/*--light-color: #bfc82c;
+  --dark-color: #000000; */
+
+  /* --light-color: #f59000;
+  --dark-color: #000000; */
+
+    /* --light-color: #23ffbb;
+  --dark-color: #000000; */
+
+}
+
+
 body, html{
   height:100%;
   margin:0;
@@ -5,8 +21,8 @@ body, html{
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#23ffbb;
-  background-color: #000000;
+  color:var(--light-color);
+  background-color:var(--dark-color);
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -46,8 +62,8 @@ body, html{
 }
 
 .event_item{
-  color:#23ffbb;
-  background-color: #000000;
+  color:var(--light-color);
+  background-color:var(--dark-color);
   margin: 5%;
   padding: 3%;
   padding-top: 1%;
@@ -60,13 +76,13 @@ footer p{
 }
 
 .section-dark{
-  color:#23ffbb;
-  background-color: #000000;
+  color:var(--light-color);
+  background-color:var(--dark-color);
 }
 
 .section-light{
-  color:#000000;
-  background-color: #23ffbb;
+  color:var(--dark-color);
+  background-color:var(--light-color);
 }
 
 .ptext{
@@ -74,15 +90,15 @@ footer p{
   top:50%;
   width:100%;
   text-align:center;
-  color:#000;
+  color:var(--dark-color);
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
 }
 
 .ptext .border{
-  background-color:#111;
-  color:#fff;
+  color:var(--light-color);
+  background-color:var(--dark-color);
   padding:20px;
 }
 
@@ -105,14 +121,14 @@ nav{
   align-items: center;
   position: fixed;
   z-index: 99;
-  box-shadow: 0 0 10px #000;
-  color:#23ffbb;
-  background-color: #000000;
+  box-shadow: 0 0 10px var(--dark-color);
+  color:var(--light-color);
+  background-color:var(--dark-color);
   }
   nav .logo{
   flex: 1;
-  color: rgb(2, 37, 18);
-  text-shadow: 0 0 2px #000;
+  color: var(--dark-color);
+  text-shadow: 0 0 2px  var(--dark-color);
   margin-left: 2px;
 
   }
@@ -128,23 +144,23 @@ nav{
   }
   nav ul li a{
   text-decoration: none;
-  color:#23ffbb;
+  color: var(--light-color);
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px 15px;
   }
   .fa-facebook{
-  color: #3b5998;;
+  color: var(--light-color);
   }
   .fa-twitter{
-  color: #55acee;
+  color: var(--light-color);
   }
   .fa-instagram{
-  color: #ee1414;
+  color: var(--light-color);
   }
   nav ul li a:hover{
-  border-bottom: 2px solid cadetblue;
+  border-bottom: 2px solid  var(--light-color);
   }
   nav .menu{
   font-size: 2.5em;
@@ -156,7 +172,7 @@ nav{
     position: fixed;
     top:100px;
     right: -120%;
-    background: rgb(0, 0, 0);
+    background:  var(--dark-color);
     height: calc(100vh - 100px);
     width: 50%;
     flex-direction: column;
@@ -225,7 +241,7 @@ nav{
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 1.6em;
-    text-shadow: 1px 5px 10px black;
+    text-shadow: 1px 5px 10px  var(--dark-color);
     transition-duration: .3s;
   }
   .text{
@@ -235,7 +251,7 @@ nav{
     max-width: 80%;
     text-align:center;
     left: 50%;
-    text-shadow: 1px 5px 10px black;
+    text-shadow: 1px 5px 10px  var(--dark-color);
     font-size: 1em;
     display:none;
     margin-right: -50%;
@@ -249,7 +265,7 @@ nav{
     opacity: .7;
   }
   .imgcontainer:hover span{
-    color:white;
+    color: var(--light-color);
     display: block;
     transition-duration: .3s;
   }
