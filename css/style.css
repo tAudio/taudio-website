@@ -141,6 +141,11 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px 15px;
+	cursor: pointer;
+}
+
+#bar {
+	cursor: pointer;
 }
 
 .fa-facebook{
@@ -167,8 +172,9 @@ nav .menu{
 @media (max-width:1000px) {
   nav ul {
     position: fixed;
-    top: 100px;
+    top: 0;
     right: -120%;
+		margin: 40px 0;
     background:  var(--dark-color);
     height: calc(100vh - 100px);
     width: 50%;
